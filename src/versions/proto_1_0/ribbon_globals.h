@@ -1,29 +1,31 @@
 
 #include "ribbon_debug.h"
 /*----------------------------------------------------------------------------
-	ribbon api definitions
+        ribbon api definitions
 ----------------------------------------------------------------------------*/
-#define DEVICE_HID 1u		// SCISCI's internal hardware id number for the device
-							// tells which interface this device is capable of
-							// (not broadcasted)
-#define DEVICE_FID 2u		// SCISCI's firmware id for the device, which indicates
-							// what version of firmware is installed on the device
-							// which, along with the version identifies this device's
-							// functionality (0-1024, not broadcasted)
+// SCISCI's internal hardware id number for the device
+// tells which interface this device is capable of
+// (not broadcasted)
+#define DEVICE_HID 1u
+// SCISCI's firmware id for the device, which indicates
+// what version of firmware is installed on the device
+// which, along with the version identifies this device's
+// functionality (0-1024, not broadcasted)
+#define DEVICE_FID 2u
 
-#define RIBBON_DEF_PROCESSING // Use the internal sensor processor to dispatch touch events
+#define RIBBON_DEF_PROCESSING  // Use the internal sensor processor to dispatch
+                               // touch events
 #define RIBBON_DEF_FILTERING
 
 /*----------------------------------------------------------------------------
-	debugging definitions
+        debugging definitions
 ----------------------------------------------------------------------------*/
 #define DEBUG_MODE DEBUG_LOOP
 
 #define ER_THRESHOLD_DEF 12u
 
-
 /*----------------------------------------------------------------------------
-	qtouch definitions
+        qtouch definitions
 ----------------------------------------------------------------------------*/
 #define QT_MAX_NUM_ROTORS_SLIDERS 4
 #define QT_NUM_CHANNELS 64

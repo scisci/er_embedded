@@ -5,13 +5,12 @@
 #ifndef UART_h
 #define UART_h
 
-#include <stdio.h>
 #include <avr/interrupt.h>
 #include <avr/pgmspace.h>
-
+#include <stdio.h>
 
 #ifndef UART_MAX_RX_BUFFER_SIZE
-	#define UART_MAX_RX_BUFFER_SIZE 32
+#define UART_MAX_RX_BUFFER_SIZE 32
 #endif
 
 uint8_t uart_rx_avail(void);
@@ -30,5 +29,4 @@ void uart_string_P(const char *str, uint8_t length);
 
 void uart_flush(void);
 
-
-#endif //UART_h
+#endif  // UART_h

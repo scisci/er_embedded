@@ -3,16 +3,20 @@
 //----------------------------------------------------------------------------
 //	ribbon api definitions
 //----------------------------------------------------------------------------
-#define DEVICE_HID 1u		// SCISCI's internal hardware id number for the device
-							// tells which interface this device is capable of
-							// (not broadcasted)
-#define DEVICE_FID 2u		// SCISCI's firmware id for the device, which indicates
-							// what version of firmware is installed on the device
-							// which, along with the version identifies this device's
-							// functionality (0-1024, not broadcasted)
+// SCISCI's internal hardware id number for the device
+// tells which interface this device is capable of
+// (not broadcasted)
+#define DEVICE_HID 1u
 
-#define RIBBON_DEF_PROCESSING 	// Use the internal sensor processor to dispatch touch events
-#define RIBBON_DEF_FILTERING	// Use the internal/no filtering
+// SCISCI's firmware id for the device, which indicates
+// what version of firmware is installed on the device
+// which, along with the version identifies this device's
+// functionality (0-1024, not broadcasted)
+#define DEVICE_FID 2u
+
+#define RIBBON_DEF_PROCESSING  // Use the internal sensor processor to dispatch
+                               // touch events
+#define RIBBON_DEF_FILTERING   // Use the internal/no filtering
 
 //----------------------------------------------------------------------------
 //	debugging definitions
@@ -20,7 +24,6 @@
 //#define DEBUG_LEVEL DEBUG_EVENT
 
 #define ER_THRESHOLD_DEF 12u
-
 
 //----------------------------------------------------------------------------
 //	qtouch definitions

@@ -26,6 +26,4 @@ void osmonitor_crash_point(uint8_t id);
 /* Reads the last set crash point */
 uint8_t osmonitor_read_crash(void);
 
-
-
-#endif //OSMONITOR_h
+#endif  // OSMONITOR_h
