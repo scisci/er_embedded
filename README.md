@@ -14,7 +14,7 @@ This is part of a 2-year project, completed in 2010, involving the development o
 
 The Electric Ribbon system includes 3 parts.
 
-1. A microprocessor embedded in the clothing, capable of detecting capacitive touches as buttons or sliding gestures (including proximity based gestures) and relaying them via wireless signals.
+1. A microprocessor embedded in the clothing, capable of detecting capacitive touches as buttons or sliding gestures (including proximity based gestures) and relaying them via wireless signals. ![ER Image 2](img/er_proto01.jpg)
 2. Driver software running on a laptop or desktop that reads the wireless protocol and converts the signals into button presses on the device.
 3. Plugin code for multimedia software, like a synthesizer patch in a program like Ableton Live.
 
@@ -28,9 +28,6 @@ This code depends on the QTouch Library, which is a capacitive sensing helper li
 We use a custom protocol to remotely configure the QTouch system of the device to match both the current garment being worn and the desired interface for the multimedia software. This can then be stored in EEPROM of the device.
 
 ## Images
-
-The connection from the proto board to the fabric.
-![ER Image 2](img/er_proto01.jpg)
 
 An example of interacting with the prototype.
 ![ER Image 4](img/er_proto03.jpg)
