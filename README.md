@@ -3,6 +3,9 @@
 This repo hosts the code for the software embedded on the Electric Ribbon
 microprocessors.
 
+The prototype circuit board hosting the microcontroller and optimized for Qtouch.
+![ER Image 1](img/er_proto.jpg)
+
 ## Textilen and the Electric Ribbon
 
 This is part of a 2-year project, completed in 2010, involving the development of textile-­based modules and inter­faces for the con­trol and syn­the­sis of music during per­for­mance. A tex­tile in­stru­ment pro­vides a na­tur­al link be­tween action and sound, en­abl­ing al­ter­na­tive comp­o­si­tions and im­prov­isa­tions im­possible with tradi­tional in­stru­ments.
@@ -26,14 +29,8 @@ We use a custom protocol to remotely configure the QTouch system of the device t
 
 ## Images
 
-The prototype circuit board hosting the microcontroller and optimized for Qtouch.
-![ER Image 1](img/er_proto.jpg)
-
 The connection from the proto board to the fabric.
 ![ER Image 2](img/er_proto01.jpg)
-
-An example of a material test done to minimize noise. Date from these results can be seen [here](material_tests/).
-![ER Image 3](img/er_proto02.jpg)
 
 An example of interacting with the prototype.
 ![ER Image 4](img/er_proto03.jpg)
@@ -47,3 +44,5 @@ A sample vest used for performance.
 Ideallized product vision.
 ![ER Image 7](img/er_proto06.jpg)
 
+An example of a material test done to minimize noise. Date from these results can be seen [here](material_tests/).
+![ER Image 3](img/er_proto02.jpg)
