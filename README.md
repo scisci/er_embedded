@@ -23,7 +23,9 @@ With these three elements combined, a user can control the multimedia software r
 
 ## Technicals
 
-This code depends on the QTouch Library, which is a capacitive sensing helper library compatible with some Atmel processors.
+This code depends on the [QTouch Library](https://www.microchip.com/en-us/development-tool/atmel-qtouch-library), which is a capacitive sensing helper library compatible with some Atmel processors.
+
+This is the same technology used to power some touch screens, but we have adapted it to work on a cloth surface.
 
 We use a custom protocol to remotely configure the QTouch system of the device to match both the current garment being worn and the desired interface for the multimedia software. This can then be stored in EEPROM of the device.
 
