@@ -10,6 +10,8 @@ The prototype circuit board hosting the microcontroller and optimized for Qtouch
 
 This is part of a 2-year project, completed in 2010, involving the development of textile-­based modules and inter­faces for the con­trol and syn­the­sis of music during per­for­mance. A tex­tile in­stru­ment pro­vides a na­tur­al link be­tween action and sound, en­abl­ing al­ter­na­tive comp­o­si­tions and im­prov­isa­tions im­possible with tradi­tional in­stru­ments.
 
+[![Screengrab](https://img.youtube.com/vi/45vW1L8k5Bc/0.jpg)](https://www.youtube.com/watch?v=45vW1L8k5Bc)
+
 ## Wireless Sensors
 
 The Electric Ribbon system includes 3 parts.
